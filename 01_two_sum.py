@@ -14,9 +14,7 @@ class Solution:
             
             # 4. Adım: Hafıza defterine bakıyoruz. Bu aranan sayıyı daha önce gördük mü?
             if aranan_sayi in hafiza_defteri:
-                
-                # Eğer defterde varsa BİNGO! 
-                # Defterdeki sayının sırasını ve elimizdeki sayının sırasını teslim edip işi bitiriyoruz.
+                                # Defterdeki sayının sırasını ve elimizdeki sayının sırasını teslim edip işi bitiriyoruz.
                 return [hafiza_defteri[aranan_sayi], i]
             
             # 5. Adım: Eğer aranan sayı defterde yoksa, şu an elimizde tuttuğumuz sayıyı 
